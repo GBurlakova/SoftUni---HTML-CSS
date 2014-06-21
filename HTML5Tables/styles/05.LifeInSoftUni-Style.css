@@ -1,0 +1,82 @@
+.outer-table{
+    border: 1px solid;
+    font-size: 16pt;
+
+}
+
+.outer-table td{
+    border: 1px solid;
+    width: 85px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.inner-table{
+    border: 1px solid;
+    font-size: 8pt;
+    font-family: Consolas;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 100%;
+}
+
+.inner-table td{
+    height: 39px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.softuni-life{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.google{
+    vertical-align: top;
+    text-align: left;
+    height: 70px;
+}
+
+.github{
+    vertical-align: top;
+    text-align: right;
+    height: 70px;
+}
+
+.fb{
+    vertical-align: top;
+    text-align: center;
+    height: 75px;
+}
+
+.gmail-2048{
+    text-align: left;
+    height: 75px;
+}
+
+.youtube{
+    vertical-align: bottom;
+    height: 75px;
+}
+
+.food{
+    vertical-align: bottom;
+    text-align: right;
+    height: 80px;
+}
+
+.game{
+    vertical-align: bottom;
+    text-align: left;
+    height: 80px;
+}
+
+.beer{
+    text-align: right;
+    vertical-align: middle;
+    font-weight: bold;
+    height: 80px;
+}

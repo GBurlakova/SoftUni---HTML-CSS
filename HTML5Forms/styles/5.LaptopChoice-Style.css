@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    background: -moz-radial-gradient(circle, #72c5dc, #8acfe2, #cccccc);
+    background: -webkit-radial-gradient(circle, #72c5dc, #8acfe2, #cccccc);
+    background: -o-radial-gradient(circle, #72c5dc, #8acfe2, #cccccc);
+    background: -ms-radial-gradient(circle, #72c5dc, #8acfe2, #cccccc);
+    background: radial-gradient(circle, #72c5dc, #8acfe2, #cccccc);
+
+    /* Internet Explorer 10 */
+    display:-ms-flexbox;
+    -ms-flex-pack:center;
+    -ms-flex-align:center;
+
+    /* Firefox */
+    display:-moz-box-flex;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari, Chrome, and Opera */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+}
+
+    .main-container{
+        position: relative;
+        width: 900px;
+        height: 600px;
+        background: #ffffff;
+        padding: 10px;
+    }
+
+        header{
+            color: rgb(44, 66, 90);
+            font-size: 20pt;
+            width: 675px;
+            height: 35px;
+            display: inline-block;
+            margin-bottom: 30px;
+        }
+
+        .side-bar{
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            width: 200px;
+            height: 600px;
+            float: right;
+        }
+
+            .slider-container{
+                height: 100px;
+                width: 200px;
+            }
+
+            .label{
+                display: block;
+                color: rgb(44, 66, 90);
+                font-size: 14pt;
+                margin-bottom: 5px;
+                text-align: center;
+            }
+
+            .left-value{
+                float: left;
+                color: rgb(44, 66, 90);
+                margin-bottom: 5px;
+                font-size: 12pt;
+            }
+
+            .right-value{
+                float: right;
+                color: rgb(44, 66, 90);
+                margin-bottom: 5px;
+                font-size: 12pt;
+            }
+
+            .slider{
+                width: 200px;
+            }
+
+        .buttons-container{
+            display: inline-block;
+            width: 650px;
+        }
+
+            form{
+                display: inline-block;
+            }
+
+            .button{
+                display: inline-block;
+                width: 200px;
+                height: 220px;
+                margin-right: 10px;
+                margin-bottom: 30px;
+                padding: 10px;
+                border: 0;
+                border-radius: 5px;
+                -webkit-transition: ease 0.3s;
+                -moz-transition: ease 0.3;
+                -ms-transition: ease 0.3;
+                -o-transition: ease 0.3;
+                transition: ease 0.3;
+
+            }
+
+            .button:hover{
+                cursor: pointer;
+                background: rgba(44, 66, 90, 0.4);
+            }
+
+            img{
+                width: 180px;
+                height: 150;
+                margin-bottom: 5px;
+            }
+
+            p{
+                color:  rgb(44, 66, 90);
+                text-align: left;
+            }
+
+            span{
+                display: block;
+                color:  rgb(44, 66, 90);
+                font-weight: bold;
+            }
+
+            .label-price{
+                border-top-left-radius:  5px;
+                width: 80px;
+                height: 30px;
+                background: rgb(44, 66, 90);
+                float: right;
+                color: #ffffff;
+            }
+
+            .new-item-container{
+                position: relative;
+            }
+
+            .label-new{
+                width: 60px;
+                height: 60px;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }

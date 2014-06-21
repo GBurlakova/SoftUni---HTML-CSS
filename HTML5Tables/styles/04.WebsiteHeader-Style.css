@@ -1,0 +1,179 @@
+.header{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #234465;
+}
+
+.main-container{
+    width: 1150px;
+    margin: 15px auto;
+    margin-bottom: 0px;
+}
+
+.brand{
+    position: relative;
+    float: left;
+    top: -10px;
+}
+
+.brand:hover{
+    opacity: 0.5;
+}
+
+.account-navbar{
+    position: relative;
+    float: right;
+    width: 300px;
+    height: 50px;
+}
+
+.notifications{
+   position: relative;
+   float: left;
+   padding: 5px;
+}
+
+.notifications:hover{
+    background-color: #4C77DB;
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+    display: block;
+}
+
+.unread-notifications-count{
+    color: #ffffff;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.notifications-icon{
+    width: 20px;
+    height: 25px;
+    display: inline-block;
+    background: url("../images/NotificationsBell.png") no-repeat;
+    vertical-align: middle;
+}
+
+.search-bar{
+    position: relative;
+    display: inline-block;
+    float: right;
+
+}
+
+.search-field{
+    margin: 0;
+    padding: 0;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    height: 30px;
+    border: none;
+}
+
+.search-button{
+    padding: 0px;
+    float: right;
+    width: 32px;
+    height: 30px;
+    background: #ffffff;
+    background-image: url("../images/search-button.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-left: 2px solid #d5d5d5;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+.search-button:hover{
+    background-color: #ff9c00;
+}
+
+
+.user-account{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    color: #ffffff;
+    text-align: center;
+    margin: 5px;
+    font-family: Calibri;
+}
+
+.navigation{
+    position: relative;
+    float: right;
+    width: 800px;
+    text-align: right;
+    margin: 0;
+}
+
+.menu{
+    font-size: 12pt;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    color: #ffffff;
+    font-family: Calibri;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu .submenu li{
+    display: block;
+    text-align: left;
+}
+
+
+.menu li:hover  .submenu{
+    text-align: left;
+    display: block;
+}
+
+.submenu{
+    position: absolute;
+    z-index: 5;
+    background: #234465;
+    list-style-type: none;
+    display: none;
+    width: 300px;
+    margin: 0;
+    padding: 5px;
+    border: 1px solid #2B2B2B;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    font-size: 11pt;
+}
+
+.submenu li{
+    border-bottom: 1px solid #285077;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.menu li:hover, .submenu li:hover{
+    background: #ff9c00;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    cursor: pointer;
+}
+
+.menu li a, .submenu li a{
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+}
+
+.categories{
+    color: #4CA0DB;
+    font-size: 12pt;
+}

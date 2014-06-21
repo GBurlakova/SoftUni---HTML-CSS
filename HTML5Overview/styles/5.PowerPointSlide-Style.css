@@ -1,0 +1,49 @@
+#main-div{
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Calibri;
+    background-image: url("../images/Background.png");
+    width: 948px;
+    height: 535px;
+    padding: 5px 25px;
+    background-repeat: no-repeat;
+}
+
+.white-text{
+    color:#ffffff;
+}
+
+.yellow-text{
+    color: #E5B35A;
+}
+
+.list-square-type{
+    list-style-type: square;
+    color: #CBAD51;
+}
+
+.gray-div{
+    background: #20201E;
+    border-width: 1px;
+    border-color: #808080;
+    border-style: solid;
+    opacity: 0.9;
+    width: 75%;
+    color: #ffffff;
+    font-family: Consolas;
+}
+
+.inner-list{
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: Calibri;
+    src: url(../fonts/Calibri.ttf);
+}
+
+@font-face {
+    font-family: Consolas;
+    src: url(../fonts/Consolas.ttf);
+}

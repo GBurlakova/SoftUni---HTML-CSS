@@ -1,0 +1,13 @@
+table, td, th{
+    border: 1px solid;
+}
+
+#tableHeading{
+    font-size: 28px;
+    text-align: center;
+    padding: 5px;
+}
+
+#resultRow{
+    text-align: right;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+    <link href="styles/1.SimpleForm-Style.css" rel="stylesheet" type="text/css"/>
+    <script>
+        function confirmPassword() {
+            var pass1 = document.getElementById("pass").value;
+            var pass2 = document.getElementById("pass-confirm").value;
+            if (pass1 != pass2 || pass1 == '' || pass2 == '') {
+                document.getElementById('password-message').innerHTML = "Passwords do not match!";
+                document.getElementById('submit-left-form').setAttribute('disabled', 'disabled');
+                document.getElementById('submit-left-form').removeAttribute("class");
+            } else {
+                document.getElementById('password-message').innerHTML = "Passwords match";
+                document.getElementById('submit-left-form').removeAttribute('disabled');
+                document.getElementById('submit-left-form').setAttribute("class", "enabled-submit");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div id="main-container">
+        <div id="form-header">
+           <span class="blue-heading">Enter the system</span>
+           <span class="sub-heading">It is necessery to log in Your account in order to sign in for a course</span>
+        </div>
+        <div class="left-form">
+            <form method="get" action="">
+                <fieldset style="height: 340px;">
+                    <legend><span class="grey-text">ARE YOU NEW?</span> <span class="blue-text">REGISTER</span></legend>
+                    <input type="text" id="user-name" name="user-name" placeholder="User name"
+                            required="required" tabindex="1">
+                    <input type="email" id="email" name="email"
+                           pattern="[a-z]+([.\-_]*[a-z])*@[a-z]+[.\-_a-z]*([.]+[a-z]{2,10})+"
+                           required="required" placeholder="Email" tabindex="2">
+                    <input type="password" id="pass" name="pass" required="required"
+                           placeholder="Password" tabindex="3" onkeyup="confirmPassword()">
+                    <input type="password" id="pass-confirm" name="pass-confirm" tabindex="4"
+                            placeholder="Confirm Password" onkeyup="confirmPassword()">
+                    <span id="password-message"><br/></span>
+                    <input type="submit" id="submit-left-form" value="Register" disabled="disabled">
+                </fieldset>
+            </form>
+        </div>
+        <div class="right-form">
+            <form method="get" action="">
+                <fieldset>
+                    <legend><span class="white-text">ALREADY A STUDENT? LOG IN</span></legend>
+                    <input type="text" name="user-name" placeholder="User name"
+                            tabindex="1">
+                    <input type="password" name="password" placeholder="Password"
+                            tabindex="2">
+                    <input type="checkbox" id="check-box" name="checked" tabindex="3">
+                    <label for="check-box" class="label">Remember me?</label>
+                    <div class="login">
+                        <input type="submit" value="Login" id="submit-right-form">
+                        <a >Forgot Password</a>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

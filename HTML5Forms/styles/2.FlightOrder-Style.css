@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+
+    /* Internet Explorer 10 */
+    display:-ms-flexbox;
+    -ms-flex-pack:center;
+    -ms-flex-align:center;
+
+    /* Firefox */
+    display:-moz-box-flex;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari, Chrome, and Opera */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+}
+
+.main-container{
+    width: 500px;
+    height: 395px;
+    background: rgb(255, 192, 203);
+    padding: 20px;
+}
+
+form{
+    width: 460px;
+    height: 320px;
+}
+
+header{
+    text-align: center;
+    font-size: 20pt;
+    letter-spacing: 2.5px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    height: 35px;
+}
+
+.left-side{
+    width: 210px;
+    height: 320px;
+    float: left;
+}
+
+.right-side{
+    width: 210px;
+    height: 320px;
+    float: right;
+}
+
+.label-big{
+    display: block;
+    width: 250px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.label-small{
+    display: inline-block;
+    width: 65px;
+    height: 20px;
+    margin-bottom: 10px;
+    margin-right: 3px;
+}
+
+.big-input-field{
+    display: block;
+    width: 210px;
+    margin-bottom: 10px;
+}
+
+.big-input-field[type=submit]{
+    height: 30px;
+}
+
+.medium-input {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.small-input-field{
+    display: inline-block;
+    width: 65px;
+    height: 20px;
+    margin-bottom: 10px;
+    margin-right: 3px;
+}
+
+#zero-twelve{
+    margin-right: 0;
+}
+
+.check-box{
+    width: 15px;
+    height: 15px;
+}
+
+
+
+
+

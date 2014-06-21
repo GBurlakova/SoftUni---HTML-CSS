@@ -1,0 +1,11 @@
+.background{
+    background-color: #ADD8E6;
+}
+
+.navigation{
+    list-style-type: disc;
+}
+
+dt{
+    font-style: italic;
+}

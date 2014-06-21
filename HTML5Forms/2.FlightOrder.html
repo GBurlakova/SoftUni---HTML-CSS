@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flight order</title>
+    <link href="styles/2.FlightOrder-Style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="main-container">
+        <header>FLIGHT ORDER</header>
+            <form method="get" action="">
+                <div class="left-side">
+                    <label for="from-city" class="label-big">From</label>
+                    <select id="from-city" name="from-city" class="big-input-field">
+                        <option value="1">София</option>
+                        <option value="2">Бургас</option>
+                        <option value="3">Пловдив</option>
+                        <option value="4">Стара Загора</option>
+                        <option value="5">Велико Търново</option>
+                    </select>
+                    <label class="label-big"></label><!--For aligning-->
+                    <label class="label-big">Departure Date</label>
+                    <input type="date" class="big-input-field">
+                    <label class="label-big">Return date</label>
+                    <input type="date" class="big-input-field">
+                    <label for="twelve-plus" class="label-small">12+</label>
+                    <label for="two-twelve" class="label-small">2-12</label>
+                    <label for="zero-twelve">0-2</label>
+                    <input type="number" id="twelve-plus" class="small-input-field">
+                    <input type="number" id="two-twelve" class="small-input-field">
+                    <input type="number" id="zero-twelve" class="small-input-field">
+                </div><!--Left side-->
+
+                <div class="right-side">
+                    <label for="to-city" class="label-big">To</label>
+                    <select id="to-city" name="to-city" class="big-input-field">
+                        <option value="1">София</option>
+                        <option value="2">Бургас</option>
+                        <option value="3">Пловдив</option>
+                        <option value="4">Стара Загора</option>
+                        <option value="5">Велико Търново</option>
+                    </select>
+                    <div class="big-input-field">
+                        <input id="checkbox" type="checkbox" class="check-box">
+                        <label for="checkbox">Prefer directs</label>
+                    </div>
+                    <label class="label-big">Time interval</label>
+                    <input type="time" name="first-interval-from" class="medium-input">
+                    <input type="time" name="first-interval-to" class="medium-input">
+                    <label class="label-big">Time interval</label>
+                    <input type="time" name="second-interval-from" class="medium-input">
+                    <input type="time" name="second-inteval-to" class="medium-input">
+                    <label class="label-big">Choose class</label>
+                    <select name="class" class="big-input-field">
+                        <option value="1">Economy</option>
+                        <option value="2">Business</option>
+                        <option value="3">Standard</option>
+                    </select>
+                    <input type="submit" value="Search" class="big-input-field">
+                </div><!--Right side-->
+            </form>
+    </div> <!--Closes main-->
+</body>
+
+</html>

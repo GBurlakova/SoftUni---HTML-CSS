@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    background: -moz-radial-gradient(circle, #72c5dc, #8acfe2, #cccccc);
+    background: -webkit-radial-gradient(circle, #72c5dc, #8acfe2, #cccccc);
+    background: -o-radial-gradient(circle, #72c5dc, #8acfe2, #cccccc);
+    background: -ms-radial-gradient(circle, #72c5dc, #8acfe2, #cccccc);
+    background: radial-gradient(circle, #72c5dc, #8acfe2, #cccccc);
+
+    /* Internet Explorer 10 */
+    display:-ms-flexbox;
+    -ms-flex-pack:center;
+    -ms-flex-align:center;
+
+    /* Firefox */
+    display:-moz-box-flex;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari, Chrome, and Opera */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+}
+
+#main-container{
+    padding: 20px;
+    width: 750px;
+    height: 500px;
+    background: rgb(238, 238, 238);
+    border: 1px solid #bebebe;
+}
+
+/*Header of the page*/
+
+#form-header{
+    float: left;
+    text-align: left;
+}
+
+.blue-heading{
+    display: block;
+    color: rgb(26, 60, 95);
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.sub-heading{
+    display: block;
+    color: rgb(165, 165, 165);
+}
+
+fieldset{
+    border: none;
+
+}
+
+legend{
+    margin-bottom: 20px;
+}
+
+/*Left form styles*/
+
+.grey-text{
+    color: rgb(99, 99, 99);
+    font-size: 16pt;
+}
+
+.blue-text {
+    color: rgb(26, 60, 95);
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.left-form{
+    padding: 10px;
+    float: left;
+    margin-top: 30px;
+    width: 340px;
+    height: 360px;
+    display: inline-block;
+}
+
+    .left-form input{
+        width: 320px;
+        height: 35px;
+        margin-bottom: 20px;
+        color: rgb(99, 99, 99);
+        font-size: 16pt;
+        -webkit-transition: ease 0.4s;
+        -moz-transition: ease 0.4;
+        -ms-transition: ease 0.4;
+        -o-transition: ease 0.4;
+        transition: ease 0.4;
+    }
+
+    .left-form input:focus{
+        background: rgba(255, 161, 0, 0.99);
+        color: rgb(26, 60, 95);
+        font-size: 16pt;
+        border-radius: 5px;
+    }
+
+    .left-form input:focus::-webkit-input-placeholder{
+        color: rgb(26, 60, 95);
+    }
+
+    #password-message{
+        display: block;
+        font-size: 12pt;
+        color: rgb(99, 99, 99);
+        margin-bottom: 20px;
+    }
+
+    #submit-left-form{
+        width: 120px;
+        height: 35px;
+        border: 2px solid rgb(26, 60, 95);
+        float: right;
+        vertical-align: bottom;
+    }
+
+    .enabled-submit{
+        background: rgb(255, 161, 0);
+        color: rgb(26, 60, 95);
+        font-size: 16pt;
+        border-radius: 5px;
+    }
+
+/*Right form styles*/
+
+.white-text{
+    color: rgb(255, 255, 255);
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: left;
+}
+
+.right-form{
+    padding: 10px 15px 10px 15px;
+    margin-top: 30px;
+    float: right;
+    width: 350px;
+    height: 350px;
+    background: rgb(35, 68, 101);
+    display: inline-block;
+}
+
+    .right-form input{
+        width: 320px;
+        height: 35px;
+        margin-bottom: 20px;
+        color: rgb(99, 99, 99);
+        font-size: 16pt;
+        -webkit-transition: ease 0.2s;
+        -moz-transition: ease 0.2;
+        -ms-transition: ease 0.2;
+        -o-transition: ease 0.2;
+        transition: ease 0.2;
+    }
+
+    .right-form input:focus{
+        background: rgba(255, 161, 0, 0.99);
+        color: rgb(26, 60, 95);
+        font-size: 16pt;
+        border-radius: 5px;
+    }
+
+    .right-form input:focus::-webkit-input-placeholder{
+         color: rgb(26, 60, 95);
+     }
+
+    #check-box{
+        display: inline-block;
+        float: left;
+        width: 20px;
+        height: 20px;
+    }
+
+    .label{
+        color: #ffffff;
+        font-size: 12pt;
+        margin-left: 10px;
+    }
+
+    #submit-right-form{
+        border: 2px solid rgb(255, 161, 0);
+        background:  rgb(35, 68, 101);
+        display: inline-block;
+        width: 120px;
+        height: 35px;
+        float: right;
+        color: #ffffff;
+        margin-bottom: 10px;
+    }
+
+    #submit-right-form:focus{
+        border: 2px solid #0a1826;
+        background: rgb(255, 161, 0);
+        color: rgb(35, 68, 101);
+    }
+
+    .login{
+        float: right;
+        width: 120px;
+    }
+
+    .login a{
+        float: right;
+        color: #ffffff;
+        text-decoration: underline;
+    }

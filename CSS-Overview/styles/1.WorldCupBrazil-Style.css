@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-content{
+    width: 886px;
+    height: 321px;
+    background: rgb(0, 146, 62);
+    padding: 15px;
+}
+
+.table{
+    width: 857px;
+    height: 242px;
+    border: 2px solid #000000;
+    border-top: none;
+    display: table;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/*Header Of The Table*/
+
+.thead{
+    display: table-caption;
+    background: rgb(248, 199, 17);
+    font-size: 16pt;
+    font-weight: bold;
+    height: 40px;
+    width: 857px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 2px solid #000000;
+}
+
+.tr-th{
+    border-right: 2px solid #000000;
+    display: table-cell;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.tr-th:nth-child(1){
+    border-top-left-radius: 13px;
+    width: 150px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.tr-th:nth-child(2){
+    width: 85px;
+    text-align: center;
+}
+
+.tr-th:nth-child(3){
+    width: 150px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.tr-th:nth-child(4){
+    width: 85px;
+    text-align: center;
+}
+
+.tr-th:nth-child(5){
+    border-top-right-radius: 13px;
+    width: 382px;
+    border: 0;
+    text-align: center;
+}
+
+/*Body Of The Table*/
+
+.tr{
+    height: 50px;
+    width: 855px;
+    display: table-row;
+}
+
+.tr:last-of-type{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.tr:nth-child(even){
+    background: rgb(200, 200, 200);
+}
+
+.tr:nth-child(odd) {
+    background: rgb(255, 255, 255);
+}
+
+.tr:last-child .td{
+    border-bottom: none;
+}
+
+
+.tr:last-child .td:first-child{
+    border-bottom-left-radius: 13px;
+}
+
+.tr:last-child .td:last-child{
+    border-bottom-right-radius: 13px;
+}
+
+.td{
+    border-right: 2px solid #000000;
+    display: table-cell;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 48px;
+    vertical-align: middle;
+    font-size: 11pt;
+    font-weight: bold;
+    font-family: Calibri;
+    border-bottom: 2px solid #000000;
+}
+
+.td:nth-child(1){
+    width: 150px;
+}
+
+.td:nth-child(1) span{
+    float: right;
+    vertical-align: middle;
+}
+
+.td:nth-child(1) div{
+    width: 25px;
+    height: 20px;
+    float: right;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.td:nth-child(2) {
+    text-align: center;
+    width: 85px;
+}
+
+.td:nth-child(3){
+    width: 150px;
+    padding-right: 5px;
+}
+.td:nth-child(3) div{
+    width: 25px;
+    height: 20px;
+    float: left;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.td:nth-child(3) span{
+    float: left;
+    vertical-align: middle;
+}
+
+.td:nth-child(4){
+    width: 85px;
+    text-align: center;
+}
+
+.td:nth-child(5){
+    text-align: right;
+    width: 119px;
+}
+
+.td:nth-child(6){
+    text-align: center;
+    width: 95px;
+}
+
+.td:nth-child(6) .left-select{
+    float: left;
+    vertical-align: middle;
+    width: 33px;
+    height: 33px;
+}
+
+.td:nth-child(6) .right-select{
+    float: right;
+    vertical-align: middle;
+    width: 33px;
+    height: 33px;
+}
+
+/*Flags*/
+
+.mexico{
+    background: url("../images/MexicoFlag.png");
+    background-size: cover;
+}
+
+.brasil{
+    background: url("../images/BraziliaFlag.jpg");
+    background-size: cover;
+}
+
+.spain{
+    background: url("../images/SpainFlag.png");
+    background-size: cover;
+}
+
+.netherlands{
+    background: url("../images/NetherlandsFlag.jpg");
+    background-size: cover;
+}
+
+.italy{
+    background: url("../images/ItalyFlag.jpg");
+    background-size: cover;
+}
+
+.england {
+    background: url("../images/EnglandFlag.gif");
+    background-size: cover;
+}
+
+.argentina{
+    background: url("../images/ArgentinaFlag.gif");
+    background-size: cover;
+}
+
+.bosnia-herz{
+    background: url("../images/BosniaAndHerzegovinaFlag.gif");
+    background-size: cover;
+}
+
+.germany{
+    background: url("../images/GermanyFlag.gif");
+    background-size: cover;
+}
+
+.portugal{
+    background: url("../images/PortugalFlag.jpg");
+    background-size: cover;
+}
+
+select:disabled{
+    color: #cc0000;
+    background: rgb(220, 220, 220);
+}
+
+select:enabled{
+    color: #008000;
+    background: rgb(255, 255, 255);
+}
+
+.td:nth-child(6) span{
+    vertical-align: middle;
+}
+
+.td:nth-child(7){
+    text-align: left;
+    width: 119px;
+}
+
+.td:nth-child(8){
+    text-align: center;
+    width: 50px;
+    padding: 0;
+    border-right: 0;
+}
+
+input{
+    color:#ffffff;
+    font-family:Arial;
+    font-size:8pt;
+    font-weight:bold;
+    font-style:normal;
+    height:33px;
+    width:33px;
+    text-decoration:none;
+    text-align:center;
+    text-indent:0;
+}
+
+input:focus, input:hover, input:active{
+    outline: none;
+}
+
+input[type="submit"]:disabled {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #ce0100) );
+    background:-moz-linear-gradient( center top, #fe1a00 5%, #ce0100 100% );
+    background-color:#fe1a00;
+    -webkit-border-top-left-radius:42px;
+    -moz-border-radius-topleft:42px;
+    border-top-left-radius:42px;
+    -webkit-border-top-right-radius:42px;
+    -moz-border-radius-topright:42px;
+    border-top-right-radius:42px;
+    -webkit-border-bottom-right-radius:42px;
+    -moz-border-radius-bottomright:42px;
+    border-bottom-right-radius:42px;
+    -webkit-border-bottom-left-radius:42px;
+    -moz-border-radius-bottomleft:42px;
+    border-bottom-left-radius:42px;
+    border:1px solid -o-linear-gradient(bottom, #9BA9A9 0%, #DFE0E0 100%);
+    border:1px solid -moz-linear-gradient(bottom, #9BA9A9 0%, #DFE0E0 100%);
+    border:1px solid -webkit-linear-gradient(bottom, #9BA9A9 0%, #DFE0E0 100%);
+    border:1px solid -ms-linear-gradient(bottom, #9BA9A9 0%, #DFE0E0 100%);
+    border:1px solid linear-gradient(bottom, #9BA9A9 0%, #DFE0E0 100%);
+}
+
+input[type="submit"]:enabled:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+input[type="submit"]:enabled:active{
+    border: none;
+    position: relative;
+    top: 3px;
+    background: rgb(248, 199, 17);
+    opacity: 1;
+    color: #000000;
+}
+
+input[type="submit"]:enabled {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #007f00), color-stop(1, #008000) );
+    background:-moz-linear-gradient( center top, #007f00 5%, #008000 100% );
+    background-color:#008000;
+    -webkit-border-top-left-radius:42px;
+    -moz-border-radius-topleft:42px;
+    border-top-left-radius:42px;
+    -webkit-border-top-right-radius:42px;
+    -moz-border-radius-topright:42px;
+    border-top-right-radius:42px;
+    -webkit-border-bottom-right-radius:42px;
+    -moz-border-radius-bottomright:42px;
+    border-bottom-right-radius:42px;
+    -webkit-border-bottom-left-radius:42px;
+    -moz-border-radius-bottomleft:42px;
+    border-bottom-left-radius:42px;
+    border:1px solid -o-linear-gradient(bottom, #9BA9A9 0%, #DFE0E0 100%);
+    border:1px solid -moz-linear-gradient(bottom, #9BA9A9 0%, #DFE0E0 100%);
+    border:1px solid -webkit-linear-gradient(bottom, #9BA9A9 0%, #DFE0E0 100%);
+    border:1px solid -ms-linear-gradient(bottom, #9BA9A9 0%, #DFE0E0 100%);
+    border:1px solid linear-gradient(bottom, #9BA9A9 0%, #DFE0E0 100%);
+}
+
+
+
+
+
+
+

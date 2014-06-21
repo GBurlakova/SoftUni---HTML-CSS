@@ -1,0 +1,117 @@
+html{
+    height: 100%;
+    background: -webkit-radial-gradient(white, red, orange green, blue, indigo, violet); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(white, red, orange, green, blue, indigo, violet); /* For Opera 11.1 to 12.0 */
+    background: -moz-radial-gradient(white, red, orange, green, blue, indigo, violet); /* For Fx 3.6 to 15 */
+    background: radial-gradient(white, red, orange, green, blue, indigo, violet); /* Standard syntax (must be last) */
+    background-repeat: no-repeat;
+
+    /* Internet Explorer 10 */
+    display:-ms-flexbox;
+    -ms-flex-pack:center;
+    -ms-flex-align:center;
+
+    /* Firefox */
+    display:-moz-box-flex;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari, Chrome, and Opera */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:flex;
+    box-pack:center;
+    box-align:center;
+}
+
+.student-head{
+    width: 500px;
+    height: 500px;
+    border-radius: 500px;
+    background: rgb(255, 255, 0);
+    position: relative;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.eye{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    position: absolute;
+    top: 120px;
+}
+
+.left-eye{
+    left: 80px;
+}
+
+.black-left{
+     width: 30px;
+     height: 30px;
+     border-radius: 50px;
+     background: rgb(0, 0, 0);
+     position: absolute;
+     top: 55px;
+     left: 55px;
+ }
+
+.right-eye{
+    left: 300px;
+}
+
+.black-right{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 65px;
+    right: 70px;
+}
+
+.nose{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    border: 2px solid rgb(0, 0, 0);
+    position: absolute;
+    background: rgb(255, 0, 0);
+    top: 220px;
+    left: 210px;
+}
+
+.mouth{
+    width: 240px;
+    height: 90px;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    position: absolute;
+    top: 310px;
+    left: 125px;
+}
+
+.tooth{
+    width: 45px;
+    height: 42px;
+    border: 2px solid rgb(0, 0, 0);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: rgb(255, 255, 255);
+    position: relative;
+}
+
+.mouth .tooth:nth-child(1){
+    bottom: 2px;
+    left: 71px;
+}
+
+.mouth .tooth:nth-child(2){
+    bottom: 48px;
+    left: 119px;
+}

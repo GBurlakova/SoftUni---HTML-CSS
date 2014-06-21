@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="styles/1.WorldCupBrazil-Style.css" rel="stylesheet" type="text/css">
+    <script>
+        window.onload = function(){
+            var results = document.getElementsByClassName("result");
+            var hostBet = document.getElementsByClassName("left-select");
+            var guestBet = document.getElementsByClassName("right-select");
+            var submitBtn = document.getElementsByTagName("input");
+            for(var i = 0; i < results.length; i++){
+                if(results[i].innerHTML == "-"){
+                    hostBet[i].removeAttribute("disabled");
+                    guestBet[i].removeAttribute("disabled");
+                    submitBtn[i].removeAttribute("disabled");
+                }else{
+                    hostBet[i].setAttribute("disabled", "disabled");
+                    guestBet[i].setAttribute("disabled", "disabled");
+                    submitBtn[i].setAttribute("disabled", "disabled");
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="main-content">
+        <div class="table">
+            <div class="thead">
+                <div class="tr-th">County</div>
+                <div class="tr-th">Result</div>
+                <div class="tr-th">Country</div>
+                <div class="tr-th">Group</div>
+                <div class="tr-th">Place A Bet</div>
+            </div>
+            <div>
+                <form method="get" action="" class="tr">
+                    <div class="td">
+                        <div class="brasil"></div>
+                        <span>Brasil</span>
+                    </div>
+                    <div class="td">
+                        <span class="result">1 - 3</span>
+                    </div>
+                    <div class="td">
+                        <div class="mexico"></div>
+                        <span>Mexico</span>
+                    </div>
+                    <div class="td">
+                        <span>A</span>
+                    </div>
+                    <div class="td">
+                        <span>Brasil</span>
+                    </div>
+                    <div class="td">
+                        <select name="bet-host" class="left-select">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                        </select><span>-</span><select
+                            name="bet-guest" class="right-select">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        </select>
+                    </div>
+                    <div class="td">
+                        <span>Mexico</span>
+                    </div>
+                    <div class="td">
+                        <input type="submit" value="BET"/>
+                    </div>
+                </form><!--First Row-->
+                <form method="get" action="" class="tr">
+                    <div class="td">
+                        <div class="spain"></div>
+                        <span>Spain</span>
+                    </div>
+                    <div class="td">
+                        <span class="result">1 - 5</span>
+                    </div>
+                    <div class="td">
+                        <div class="netherlands"></div>
+                        <span>Netherlands</span>
+                    </div>
+                    <div class="td">
+                        <span>B</span>
+                    </div>
+                    <div class="td">
+                        <span>Spain</span>
+                    </div>
+                    <div class="td">
+                        <select name="bet-host" class="left-select">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                        </select><span>-</span><select
+                            name="bet-guest" class="right-select">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        </select>
+                    </div>
+                    <div class="td">
+                        <span>Netherlands</span>
+                    </div>
+                    <div class="td">
+                        <input type="submit" value="BET"/>
+                    </div>
+                </form><!--Second Row-->
+                <form method="get" action="" class="tr">
+                    <div class="td">
+                        <div class="italy"></div>
+                        <span>Italy</span>
+                    </div>
+                    <div class="td">
+                        <span class="result">2 - 1</span>
+                    </div>
+                    <div class="td">
+                        <div class="england"></div>
+                        <span>England</span>
+                    </div>
+                    <div class="td">
+                        <span>C</span>
+                    </div>
+                    <div class="td">
+                        <span>Italy</span>
+                    </div>
+                    <div class="td">
+                        <select name="bet-host" class="left-select">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                        </select><span>-</span><select
+                            name="bet-guest" class="right-select">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        </select>
+                    </div>
+                    <div class="td">
+                        <span>England</span>
+                    </div>
+                    <div class="td">
+                        <input type="submit" value="BET"/>
+                    </div>
+                </form><!--Third Row-->
+                <form method="get" action="" class="tr">
+                    <div class="td">
+                        <div class="argentina"></div>
+                        <span>Argentina</span>
+                    </div>
+                    <div class="td">
+                        <span class="result">-</span>
+                    </div>
+                    <div class="td">
+                        <div class="bosnia-herz"></div>
+                        <span>Bosnia and Herz</span>
+                    </div>
+                    <div class="td">
+                        <span>D</span>
+                    </div>
+                    <div class="td">
+                        <span>Argentina</span>
+                    </div>
+                    <div class="td">
+                        <select name="bet-host" class="left-select">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                        </select><span>-</span><select
+                            name="bet-guest" class="right-select">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        </select>
+                    </div>
+                    <div class="td">
+                        <span>Bosnia and Herz</span>
+                    </div>
+                    <div class="td">
+                        <input type="submit" value="BET"/>
+                    </div>
+                </form><!--Fourth Row-->
+                <form method="get" action="" class="tr">
+                    <div class="td">
+                        <div class="germany"></div>
+                        <span>Germany</span>
+                    </div>
+                    <div class="td">
+                        <span class="result">-</span>
+                    </div>
+                    <div class="td">
+                        <div class="portugal"></div>
+                        <span>Portugal</span>
+                    </div>
+                    <div class="td">
+                        <span>F</span>
+                    </div>
+                    <div class="td">
+                        <span>Germany</span>
+                    </div>
+                    <div class="td">
+                        <select name="bet-host" class="left-select">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                        </select><span>-</span><select
+                            name="bet-guest" class="right-select">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        </select>
+                    </div>
+                    <div class="td">
+                        <span>Portugal</span>
+                    </div>
+                    <div class="td">
+                        <input type="submit" value="BET"/>
+                    </div>
+                </form><!--Fifth Row-->
+            </div>
+        </div>
+    </div><!--Main Content-->
+</body>
+</html>

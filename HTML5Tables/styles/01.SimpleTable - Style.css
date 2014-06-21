@@ -1,0 +1,21 @@
+table{
+    border: 1px solid #808080;
+}
+
+tr.headingTextAlign{
+    text-align: center;
+}
+
+img{
+    width: 160px;
+    height: 170px;
+}
+
+span.accessibleEdu{
+    font-weight: bold;
+}
+
+td.textField{
+    width: 180px;
+    text-align: justify;
+}

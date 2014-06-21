@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(93, 93, 93);
+    font-size: 12pt;
+}
+
+html{
+    height: 100%;
+    background: -moz-radial-gradient(circle, #72c5dc, #8acfe2, #cccccc);
+    background: -webkit-radial-gradient(circle, #72c5dc, #8acfe2, #cccccc);
+    background: -o-radial-gradient(circle, #72c5dc, #8acfe2, #cccccc);
+    background: -ms-radial-gradient(circle, #72c5dc, #8acfe2, #cccccc);
+    background: radial-gradient(circle, #72c5dc, #8acfe2, #cccccc);
+
+    /* Internet Explorer 10 */
+    display:-ms-flexbox;
+    -ms-flex-pack:center;
+    -ms-flex-align:center;
+
+    /* Firefox */
+    display:-moz-box-flex;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari, Chrome, and Opera */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+}
+
+.form-container{
+    width: 420px;
+    height: 250px;
+    background: #ffffff;
+    padding: 10px;
+}
+
+.image-container{
+    width: 390px;
+    height: 110px;
+    margin-bottom: 10px;
+    background-image: url("../images/Wordpress.jpg");
+}
+
+#search{
+    margin-top: 15px;
+}
+
+#upload-label{
+    margin-right: 8px;
+}
+
+#search-label{
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.search-button{
+    position: relative;
+    top: 10px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}

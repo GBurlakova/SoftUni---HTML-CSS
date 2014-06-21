@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>FakebookRegisterForm</title>
+    <link href="styles/4.FakebookRegisterForm-Style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <form method="post" action="" class="form">
+        <header class="heading">fakebook&#174</header>
+        <h2 class="reg-style">Registration</h2>
+        <h3 class="sub-heading">It is safe and it will always be</h3>
+        <fieldset class="left-field-set">
+            <legend>None-Important Information</legend>
+            <input type="text" name="first-name" tabindex="1" placeholder="First Name" class="non-imp-input-field-left">
+            <input type="text" name="last-name" tabindex="2" placeholder="Last Name" class="non-imp-input-field-right">
+            <input type="email" name="email" tabindex="3" placeholder="Your Email" class="non-imp-input-field-left">
+            <input type="tel" name="phone-num" tabindex="4" placeholder="Phone Number" class="non-imp-input-field-right">
+            <input type="password" name="password" tabindex="5" placeholder="Your Password" class="non-imp-input-field-left">
+            <input type="text" name="web-site" tabindex="6" placeholder="Website" class="non-imp-input-field-right">
+            <label class="birthday">Birthday</label>
+            <input type="datetime-local" class="birthday-input" name="birthday">
+            <input type="radio" name="gender" id="female" class="radio-button">
+            <label for="female" class="radio-label">Female</label>
+            <input type="radio" name="gender" id="male" class="radio-button">
+            <label for="male" class="radio-label">Male</label>
+            <input type="radio" name="gender" id="other" checked="checked" class="radio-button">
+            <label for="other" class="radio-label">Other</label>
+        </fieldset>
+        <fieldset class="right-field-set">
+            <legend>Important information *required</legend>
+            <select name="country" class="inmp-inf-input-field">
+                <option value="1">Bulgaria</option>
+                <option value="2">France</option>
+                <option value="3">England</option>
+            </select>
+            <input type="text" name="village" class="inmp-inf-input-field" placeholder="Village">
+            <input type="text" name="district" class="inmp-inf-input-field last-field" placeholder="District">
+            <input type="text" name="street" class="inmp-inf-input-field">
+            <input type="text" name="nr" class="inmp-inf-input-field small-flield" placeholder="Nr">
+            <input type="text" name="floor" class="inmp-inf-input-field small-flield" placeholder="Floor">
+            <input type="text" name="app-nr" class="inmp-inf-input-field small-flield" placeholder="App Nr">
+            <label for="color" class="label">Doorcolor</label>
+            <input type="color" name="color" class="inmp-inf-input-field" id="color" value="#ff80c0">
+            <input type="text" name="water-meter" class="inmp-inf-input-field" placeholder="Water Meter Nr">
+            <select name="size" class="inmp-inf-input-field last-field">
+                <option value="1">XL</option>
+                <option value="2">XLL</option>
+                <option value="3">XLLL</option>
+            </select>
+            <label class="label">More Personal Information</label>
+            <textarea placeholder="Give Us More Information!!!"></textarea>
+        </fieldset>
+        <input type="reset" value="Clear" class="reset-button">
+        <input type="submit" class="submit-btn" value="Register">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+.outer-table{
+    border: 1px solid;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.outer-table td{
+    border: 1px solid #000000;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+    .inner-table{
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .inner-table td{
+        border: 0;
+        padding: 0;
+    }
+
+button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.softuni-life{
+    width: 410px;
+    height: 70px;
+    color: #0000ff;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+.google{
+    width: 200px;
+    height: 70px;
+    color: #0000ff;
+    font-size: 16pt;
+}
+
+.github{
+    width: 200px;
+    height: 70px;
+    color: #0000ff;
+    font-size: 16pt;
+}
+
+.fb-gmail-youtube-2048-food-wc{
+    width: 96px;
+    height: 75px;
+    color: #0000ff;
+    font-size: 14pt;
+}
+
+.game{
+    width: 200px;
+    height: 75px;
+    color: #0000ff;
+    font-size: 14pt;
+}
+
+.sleep-social-life{
+    height: 35px;
+    width: 96px;
+    color: #0000ff;
+    font-size: 12pt;
+}
+
+.beer{
+    width: 308px;
+    height: 75px;
+    color: #0000ff;
+    font-size: 14pt;
+    text-align: right;
+}
+
+button{
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.4), 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.4), 0 1px 2px rgba(0, 0, 0, 0.2);
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
+}

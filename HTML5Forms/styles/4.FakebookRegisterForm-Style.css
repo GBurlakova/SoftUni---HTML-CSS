@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(93, 93, 93);
+    font-size: 12pt;
+}
+
+html{
+    height: 100%;
+    background: -moz-radial-gradient(circle, #72c5dc, #8acfe2, #cccccc);
+    background: -webkit-radial-gradient(circle, #72c5dc, #8acfe2, #cccccc);
+    background: -o-radial-gradient(circle, #72c5dc, #8acfe2, #cccccc);
+    background: -ms-radial-gradient(circle, #72c5dc, #8acfe2, #cccccc);
+    background: radial-gradient(circle, #72c5dc, #8acfe2, #cccccc);
+
+    /* Internet Explorer 10 */
+    display:-ms-flexbox;
+    -ms-flex-pack:center;
+    -ms-flex-align:center;
+
+    /* Firefox */
+    display:-moz-box-flex;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari, Chrome, and Opera */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+
+}
+
+.form{
+    width: 820px;
+    height: 530px;
+    background: rgb(59, 89, 151);
+    padding: 20px;
+}
+
+@font-face{
+    font-family: facebook-font;
+    src: url("../fonts/FACEBOLF.OTF");
+}
+
+.heading{
+    font-family: facebook-font;
+    color: #ffffff;
+    font-size: 70pt;
+    text-align: center;
+}
+
+.reg-style{
+    font-family: Calibri;
+    color: #ffffff;
+    font-size: 25pt;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.sub-heading{
+    font-family: Calibri;
+    color: #ffffff;
+    font-size: 18pt;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.left-field-set{
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    float: left;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.right-field-set{
+    display: inline-block;
+    float: right;
+    width: 438px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+legend{
+    text-align: center;
+    font-family: Calibri;
+    color: #ffffff;
+}
+
+.non-imp-input-field-left{
+    width: 130px;
+    height: 25px;
+    border-radius: 4px;
+    display: inline-block;
+    border: 0;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.non-imp-input-field-right{
+    width: 135px;
+    height: 25px;
+    border-radius: 4px;
+    display: inline-block;
+    border: 0;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.birthday{
+    font-family: Calibri;
+    font-size: 10pt;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.birthday-input{
+    border-radius: 5px;
+    border: 0;
+    height: 25px;
+    width: 250px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+
+.radio-button{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.radio-label{
+    margin-right: 30px;
+    color: #ffffff;
+}
+
+.reset-button{
+    border-radius: 5px;
+    float: left;
+    width: 300px;
+    height: 35px;
+    border: 0;
+    color: rgb(59, 89, 151);
+}
+
+.inmp-inf-input-field{
+    display: inline-block;
+    width: 135px;
+    height: 25px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.inmp-inf-input-field + .last-field{
+    margin-right: 0;
+}
+
+.inmp-inf-input-field + .small-flield{
+    width: 70px;
+}
+
+.label{
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+textarea{
+    height: 65px;
+    width: 424px;
+}
+
+.submit-btn{
+    width: 438px;
+    height: 35px;
+    color: rgb(59, 89, 151);
+    font-size: 18pt;
+    border-radius: 5px;
+    float: right;
+    border: 0;
+}
+
