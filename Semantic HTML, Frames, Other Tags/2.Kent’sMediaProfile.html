@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Kent’s Media Profile</title>
+    <link href="styles/2.Kent’sMediaProfile-Style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="content-wrapper">
+        <header>Profile</header>
+        <main>
+        <section class="profile-section">
+            <h2>User: Kent</h2>
+            <figure>
+                <img src="images/KenDoll.jpg">
+                <figcaption>
+                    <label>
+                        Profile completed <span id="profile-completed">60%</span>
+                    </label>
+                    <meter value="60" max="100"></meter>
+                </figcaption>
+            </figure>
+        </section>
+        <section class="audio-section">
+            <h2>Uploaded audios</h2>
+            <embed
+                    name="MediaPlayer"
+                    width=250
+                    height=150"
+                    controller="true"
+                    autoplay="false"
+                    autostart="False"
+                    src="http://www.vorbis.com/music/Lumme-Badloop.ogg" type="audio/ogg">
+            <audio src="http://www.vorbis.com/music/Epoq-Lepidoptera.ogg" controls></audio>
+            <audio src="http://www.vorbis.com/music/Hydrate-Kenny_Beltrey.ogg" controls></audio>
+            <audio src="http://www.vorbis.com/music/Mists_of_Time-4T.ogg" controls></audio>
+        </section>
+        <section class="video-section">
+            <h2>Uploaded Video Files</h2>
+            <video width="490" height="280" controls>
+                <source src="http://media.w3.org/2010/05/bunny/movie.mp4" type="video/mp4">
+            </video>
+        </section>
+        </main>
+    </div>
+
+</body>
+
+</html>
