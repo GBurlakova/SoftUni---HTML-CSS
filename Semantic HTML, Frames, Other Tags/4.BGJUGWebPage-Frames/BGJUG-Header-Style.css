@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.2%;
+}
+
+.page-header{
+    border-bottom: 1px solid rgb(210, 210, 210);
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 60px;
+    margin-left: 20px;
+}
+
+.page-header div{
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 2rem;
+    padding: 10px 10px 0 10px;
+}
+
+.page-header div a{
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+}
+
+.page-header div:hover{
+    background: rgb(240, 240, 240);
+}
+
+.page-header div:hover a{
+    color: rgb(0, 0, 0);
+}
+
+.page-header fieldset{
+    float: right;
+    position: relative;
+    bottom: 35px;
+    border: 1px solid rgb(210, 210, 210);
+    height: 30px;
+}
+
+.page-header fieldset input[type="search"]{
+    border: none;
+    vertical-align: middle;
+    height: 25px;
+}
+
+.page-header fieldset img{
+    position: relative;
+    top: 5px;
+}
+
+.page-header fieldset img:hover{
+    background: rgba(210, 210, 210, 0.5);
+    cursor: pointer;
+    border-radius: 20px;
+}

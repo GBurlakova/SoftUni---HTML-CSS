@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.2%;
+}
+
+.main-content{
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 80px;
+    width: 450px;
+}
+
+.main-content article header h2{
+    margin-bottom: 3px;
+    font-size: 3rem;
+}
+
+.main-content header + div{
+    font-size: 1rem;
+    font-style: italic;
+    color: rgb(150, 150, 150);
+}
+
+.main-content header + div a, time, span{
+    font-size: 1.2rem;
+    font-style: normal;
+    color: rgb(150, 150, 150);
+}
+
+.main-content header + div time{
+    margin-right: 20px;
+}
+.main-content article div{
+    text-align: justify;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.main-content article div + div a{
+    color: rgb(94,111,177);
+    text-decoration: none;
+}
+
+.main-content article:last-of-type{
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgba(210, 210, 210, 0.5);
+}
+
+.main-content article:last-of-type + span a{
+    font-size: 1.8rem;
+    font-style: normal;
+    color: rgb(94,111,177);
+    text-decoration: none;
+}
