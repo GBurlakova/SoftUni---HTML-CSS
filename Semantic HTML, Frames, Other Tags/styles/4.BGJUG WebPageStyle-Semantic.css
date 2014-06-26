@@ -53,7 +53,11 @@ h1{
     height: 30px;
 }
 
-.page-header fieldset input[type="search"]{
+.page-header fieldset input[type="search"],
+.page-header fieldset input[type="search"]:active,
+.page-header fieldset input[type="search"]:hover,
+.page-header fieldset input[type="search"]:focus{
+    outline: none;
     border: none;
     vertical-align: middle;
     height: 25px;

@@ -1,3 +1,9 @@
+html{
+    height: 100%;
+    width: 100%;
+    font-size: 62.5%;
+}
+
 div, header, iframe{
     margin: 0;
     padding: 0;
@@ -21,22 +27,26 @@ header{
     text-align: center;
 }
 
-iframe{
+#imgbox{
+    width: 172px;
+    height: 130px;
     vertical-align: top;
     margin-right: 20px;
     display: inline-block;
     border: 1px solid rgb(246, 196, 5);
+    overflow: hidden;
 }
 
 .navigation{
     display: inline-block;
     width: 244px;
     height: 130px;
+    padding-top: 2%;
 }
 
 .navigation a{
     color: #ffffff;
-    font-size: 17pt;
+    font-size: 2rem;
     text-align: left;
     display: block;
     text-decoration: none;
