@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: animatted;
+    src: url(../fonts/Animated.ttf);
+}
+
+.main{
+    position: relative;
+   margin: 20px auto;
+   width: 900px;
+   height: 600px;
+   background: -webkit-radial-gradient(22% 20%,closest-corner, rgba(255, 255, 255, 0.3) 30%, rgb(255,255,102) 30%, rgba(255, 255, 255, 0.3) 2%, rgb(0, 125, 219));
+}
+
+.vlado-g{
+    position: absolute;
+    top: 217px;
+    left: 45px;
+}
+
+.petia{
+    position: absolute;
+    top: 185px;
+    left: 186px;
+}
+
+.nakov{
+    position: absolute;
+    top: 160px;
+    left: 410px;
+}
+
+.alex{
+    position: absolute;
+    top: 205px;
+    left: 490px;
+    z-index: 1;
+}
+
+.vlado-k{
+    position: absolute;
+    top: 236px;
+    left: 670px;
+    z-index: 0;
+}
+
+.tedi{
+    position: absolute;
+    top: 365px;
+    left: 261px;
+}
+
+.text{
+    position: absolute;
+    top: 10px;
+    left: 465px;
+    font-family: animatted;
+    font-size: 3.2rem;
+    color: rgb(225, 167, 24);
+}
