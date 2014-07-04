@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    height: 100%;
+}
+
+.news > div > header{
+    font-size: 2.5rem;
+    color: rgb(35, 68, 101);
+}
+
+.well{
+    background-color: rgb(238, 238, 238);
+}
+
+.white-background{
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.box{
+    height: 414px;
+}
+
+article{
+    color: rgb(35, 68, 101);
+    padding: 10px;
+    position: relative;
+}
+
+article header {
+    position: relative;
+    display: block;
+    height: 150px;
+    padding: 10px;
+
+}
+
+.heading{
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.heading a{
+    color: inherit;
+}
+
+.heading a:hover{
+    color: inherit;
+}
+
+.details{
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+}
+
+.subheading-time{
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.author{
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+article div img{
+    margin-bottom: 15px;
+}
+
+.article-footer{
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
+    font-size: 1.4rem;
+}
+
+.article-footer div span{
+    font-weight: bold;
+}
+
+.article-footer div a{
+    color: rgb(180, 180, 180);
+}
+
+.article-footer div a:hover{
+    color: rgb(100, 100, 100);
+    text-decoration: underline;
+}
+
+.section-footer ul{
+    list-style-type: none;
+}
+
+.section-footer li{
+    display: table-cell;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(76, 160, 219);
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 0;
+    vertical-align: middle;
+    -webkit-transition: all ease 0.1s;
+}
+
+.section-footer li:hover{
+   background-color: rgb(136, 195, 236);
+   outline: 1px solid rgb(76, 100, 255);
+}
+
+.section-footer li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+

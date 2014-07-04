@@ -9,7 +9,7 @@ html{
     background-repeat: repeat;
 }
 
-.page-header{
+body > header{
     width: 100%;
     height: 80px;
     background-image: -o-linear-gradient(right, #FF0000 33.33%, #008000 33.33%, #008000 67.7%, #0000FF 67.7%);
@@ -23,7 +23,7 @@ html{
     text-align: center;
 }
 
-.side-bar{
+aside{
     float: left;
     margin-left: 10px;
     margin-top: 40px;
@@ -34,23 +34,22 @@ html{
     padding: 15px;
 }
 
-.side-bar header{
+aside nav header{
     font-size: 20pt;
     text-decoration: underline;
     margin-bottom: 5px;
 }
 
-.side-bar ul{
+aside ul{
     list-style-type: none;
 }
 
-.side-bar li{
+aside li{
     padding: 8px;
-    /*margin-bottom: 15px;*/
     position: relative;
 }
 
-.side-bar ul li:before{
+aside ul li:before{
     display: inline-block;
     width: 10px;
     height: 10px;
@@ -60,7 +59,7 @@ html{
     content: url("../images/green-tick-without-background.png");
 }
 
-.side-bar li a{
+aside li a{
     position: relative;
     font-size: 18pt;
     text-decoration: none;
@@ -69,96 +68,96 @@ html{
     top: 5px;
 }
 
-.side-bar li a:visited{
-    color: rgb(192, 200, 210);
+aside li a:visited{
+    color: rgb(180, 180, 180);
 }
 
-.main-content{
+/*Hover side bar*/
+
+aside nav ul li:nth-child(1):hover{
+    background: rgb(255, 0, 0);
+    border-radius: 15px;
+}
+
+aside nav ul li:nth-child(2):hover{
+    background: rgb(255, 165, 0);
+    border-radius: 15px;
+}
+
+aside nav ul li:nth-child(3):hover{
+    background: rgb(255, 255, 0);
+    border-radius: 15px;
+}
+
+aside nav ul li:nth-child(4):hover{
+    background: rgb(0, 128, 0);
+    border-radius: 15px;
+}
+
+aside nav ul li:nth-child(5):hover{
+    background: rgb(0, 0, 255);
+    border-radius: 15px;
+}
+
+aside nav ul li:nth-child(6):hover{
+    background: rgb(128, 0, 128);
+    border-radius: 15px;
+}
+
+/*Main content*/
+
+section{
     float: right;
     padding-top: 40px;
     padding-right: 20px;
 }
 
-.main-content article{
+section article{
     width: 950px;
     margin-bottom: 20px;
     background: rgba(233, 237, 234, 0.9);
     border-radius: 15px;
     padding: 10px;
 }
-
-/*Hover side bar*/
-
-.side-bar nav ul li:nth-child(1):hover{
-    background: rgb(255, 0, 0);
-    border-radius: 15px;
-}
-
-.side-bar nav ul li:nth-child(2):hover{
-    background: rgb(255, 165, 0);
-    border-radius: 15px;
-}
-
-.side-bar nav ul li:nth-child(3):hover{
-    background: rgb(255, 255, 0);
-    border-radius: 15px;
-}
-
-.side-bar nav ul li:nth-child(4):hover{
-    background: rgb(0, 128, 0);
-    border-radius: 15px;
-}
-
-.side-bar nav ul li:nth-child(5):hover{
-    background: rgb(0, 0, 255);
-    border-radius: 15px;
-}
-
-.side-bar nav ul li:nth-child(6):hover{
-    background: rgb(128, 0, 128);
-    border-radius: 15px;
-}
-
-
 /*Headers of the articles*/
 
-.main-content header{
+section header{
     font-size: 30pt;
     height: 60px;
     padding: 10px;
 }
 
-.main-content article:nth-child(1) header{
+section article:nth-child(1) header{
     color: #ffffff;
     background: rgb(255, 0, 0);
     border-radius: 15px;
 }
 
-.main-content article:nth-child(2) header{
+section article:nth-child(2) header{
     color: #000000;
     background: rgb(255, 165, 0);
     border-radius: 15px;
 }
 
-.main-content article:nth-child(3) header{
+section article:nth-child(3) header{
     color: #000000;
     background: rgb(255, 255, 0);
     border-radius: 15px;
 }
 
-.main-content article:nth-child(4) header{
+section article:nth-child(4) header{
     color: #ffffff;
     background: rgb(0, 128, 0);
     border-radius: 15px;
 }
 
-.main-content article:nth-child(5) header{
+section article:nth-child(5) header{
     color: #ffffff;
     background: rgb(0, 0, 255);
     border-radius: 15px;
 }
 
-.main-content article:nth-child(6) header{
+section article:nth-child(6) header{
     color: #ffffff;
     background: rgb(128, 0, 128);
     border-radius: 15px;
@@ -167,18 +166,18 @@ html{
 
 /*Content Of The Articles*/
 
-.main-content article div{
+section article div{
     text-align: justify;
     font-size: 16pt;
     width: 900px;
     margin: 15px auto;
 }
 
-.main-content article div:first-letter{
+section article div:first-letter{
     font-size: 55pt;
 }
 
-.main-content article div:first-line{
+section article div:first-line{
     font-style: italic;
 }
 
@@ -207,7 +206,8 @@ footer a{
     color: rgb(100, 100, 100);
     padding: 15px;
 }
-.main-content article:nth-child(6) footer a{
+
+section article:nth-child(6) footer a{
     padding: 0;
 }
 

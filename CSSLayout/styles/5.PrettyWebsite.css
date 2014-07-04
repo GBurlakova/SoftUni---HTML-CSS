@@ -1,0 +1,74 @@
+@media only screen and  (max-width: 900px){
+
+    header div{
+        position: absolute;
+        top: 0;
+    }
+
+    .main-content > main, .main-content > aside{
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main-content main section{
+        text-align: center;
+        width: 100%;
+        margin: 0 0 40px 0;
+        padding: 5px;
+    }
+
+    .article-content{
+        padding: 5px;
+        width: 100%;
+    }
+
+    .main-content > aside section{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+
+    .main-content main > section, .article-content{
+        width: 80%;
+        margin: 0 auto 40px auto;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    footer div{
+        position: relative;
+        top: 30%;
+        padding: 0;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and  (max-width: 670px){
+    header .menu li{
+        display: block;
+        border-bottom: 1px solid rgb(210, 210, 210);
+        text-align: center;
+    }
+}
+
+@media only screen and  (max-width: 490px){
+
+    header div{
+       font-size: 80%;
+    }
+
+    .main-content main > section, .article-content{
+        width: 100%;
+        margin: 0 auto 40px auto;
+    }
+
+    .main-content > aside section{
+        width: 100%;
+    }
+}
+

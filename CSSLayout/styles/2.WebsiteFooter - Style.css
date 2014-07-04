@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    height: 100%;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background: rgb(35, 68, 101);
+    bottom: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+footer > div{
+    vertical-align: top;
+}
+
+.orange-button{
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.5rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.orange-button{
+    display: block;
+    border: 2px solid rgb(255, 156, 0);
+    background: transparent;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    text-align: center;
+    transition: 0.5s ease;
+}
+
+.orange-button:hover{
+    background: rgb(255, 156, 0);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+.menu-list ul{
+    list-style-type: none;
+}
+
+.menu-list > h2{
+    margin-top: 0;
+    color: rgb(255, 156, 0);
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.menu-list ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+}
+
+.menu-list ul li a:hover{
+    text-decoration: none;
+    color: rgb(255, 156, 0);
+}
+
+.copyright-field > h2{
+    margin-top: 0;
+    color: rgb(255, 156, 0);
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.copyright-field > div{
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+}
+
+.fb-wrapper{
+    background: rgb(255, 255, 255);
+    width: 256px;
+    height: 215px;
+    float: right;
+}
+
+@media (max-width: 1200px) {
+    .fb-wrapper {
+        display: none;
+    }
+}
