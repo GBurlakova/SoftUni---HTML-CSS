@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+html{
+    font-size: 62.5%;
+    height: 100%;
+    background: url("../images/background-flowers.jpg");
+    background-size: cover;
+    background-repeat: repeat-x;
+
+    /* Firefox */
+    display:-moz-box-flex;
+    -moz-box-pack:center;
+
+    /* Safari, Chrome, and Opera */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    font-family: Verdana;
+}
+
+body{
+    width: 70%;
+    margin: 0 auto;
+    /*Center the body that does not support flex box*/
+}
+
+ul li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#wrapper {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    position: absolute;
+    width:70%;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+/*Header*/
+#wrapper > header{
+    position: relative;
+    width: 100%;
+    background: rgba(254, 224, 226, 0.9);
+    border: 1px solid rgb(0, 0, 0);
+    text-align: right;
+    flex:1 100%;
+    order: 1;
+}
+
+#wrapper > header h1{
+    margin-top: 10px;
+}
+
+#wrapper > header h1 img{
+    float: left;
+    max-width: 25%;
+}
+
+#wrapper > header h1 a{
+    width: 100%;
+    text-decoration: none;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    float: right;
+    padding: 0 1.5%;
+}
+
+#wrapper > header nav ul{
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 30px;
+    padding-right: 1.5%;
+}
+
+#wrapper > header nav ul li{
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(235, 42, 123);
+    padding: 9px 15px;
+    text-align: center;
+    width: 18%;
+    margin: 0 auto;
+}
+
+#wrapper > header nav ul li a{
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+
+#wrapper > header:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+/*Sidebars*/
+.left{
+    display: inline-block;
+    width: 20%;
+    float: left;
+    margin-top: 30px;
+    background: rgba(254, 224, 226, 0.9);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 5px;
+    order:2;
+    flex:1 auto;
+}
+
+.left ul li a{
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+
+}
+
+.right{
+    display: inline-block;
+    width: 20%;
+    float: right;
+    margin-top: 30px;
+    background: rgba(254, 224, 226, 0.9);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 10px;
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    line-height: 140%;
+    order: 4;
+    flex:1 auto;
+}
+
+/*Main content*/
+section{
+    width: 58%;
+    margin: 30px 1% 0 1%;
+    display: inline-block;
+    background: rgba(254, 224, 226, 0.9);
+    border: 1px solid rgb(0, 0, 0);
+    order: 3;
+    flex: 2 auto;
+}
+
+section header{
+    padding: 2%;
+    font-size: 2.1rem;
+    margin-bottom: 0.2%;
+}
+
+section header + div{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+section img{
+    max-width: 24%;
+    margin-bottom: 0.7%;
+    height: 150px;
+}
+
+/*Footer*/
+footer{
+    width: 100%;
+    flex:1 100%;
+    background: rgba(254, 224, 226, 0.9);
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1.3rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    order: 5;
+    flex: 1 100%;
+}
+
+footer h2 a{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}

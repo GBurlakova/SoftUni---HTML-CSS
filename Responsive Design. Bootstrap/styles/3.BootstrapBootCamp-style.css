@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    height: 100%;
+    background: rgb(255, 206, 157);
+}
+
+nav.navbar-default{
+    background-image: -o-linear-gradient(bottom, #0B1E44 0%, #21CEA0 100%, #263960 100%, #21CEA0 100%, #0B1E44 100%);
+    background-image: -moz-linear-gradient(bottom, #0B1E44 0%, #21CEA0 100%, #263960 100%, #21CEA0 100%, #0B1E44 100%);
+    background-image: -webkit-linear-gradient(bottom, #0B1E44 0%, #21CEA0 100%, #263960 100%, #21CEA0 100%, #0B1E44 100%);
+    background-image: -ms-linear-gradient(bottom, #0B1E44 0%, #21CEA0 100%, #263960 100%, #21CEA0 100%, #0B1E44 100%);
+    background-image: linear-gradient(to bottom, #0B1E44 0%, #21CEA0 100%, #263960 100%, #21CEA0 100%, #0B1E44 100%);
+}
+
+nav.navbar-default,
+nav.navbar-default div a,
+nav.navbar-default ul li a,
+a.navbar-brand{
+    font-size: 2.8rem;
+    color: rgb(210, 210, 210) !important;
+}
+
+nav.navbar-default div a:hover,
+nav.navbar-default ul li:hover,
+a.navbar-brand:hover{
+    font-size: 2.8rem;
+    color: rgb(50, 50, 50) !important;
+    background: #21CEA0;
+}
+
+div.jumbotron{
+    box-shadow:
+    0 0 5px 2px rgba(33, 206, 160, 0.6);
+    -moz-box-shadow:
+    0 0 5px 2px rgba(33, 206, 160, 0.6);
+    -webkit-shadow:
+    0 0 5px 2px rgba(33, 206, 160, 0.6);
+}
+
+div.jumbotron h1,
+article header h2{
+    color: #0B1E44;
+}
+
+article header h2{
+    font-size: 2.5rem;
+}
+
+article.col-sm-12, article.col-sm-6{
+    text-align: center;
+}
+
+button.btn-default{
+    background-image: -o-linear-gradient(bottom, #0B1E44 0%, #21CEA0 100%, #263960 100%, #21CEA0 100%, #0B1E44 100%);
+    background-image: -moz-linear-gradient(bottom, #0B1E44 0%, #21CEA0 100%, #263960 100%, #21CEA0 100%, #0B1E44 100%);
+    background-image: -webkit-linear-gradient(bottom, #0B1E44 0%, #21CEA0 100%, #263960 100%, #21CEA0 100%, #0B1E44 100%);
+    background-image: -ms-linear-gradient(bottom, #0B1E44 0%, #21CEA0 100%, #263960 100%, #21CEA0 100%, #0B1E44 100%);
+    background-image: linear-gradient(to bottom, #0B1E44 0%, #21CEA0 100%, #263960 100%, #21CEA0 100%, #0B1E44 100%);
+    color: rgb(210, 210, 210) !important;
+}
+
+.active{
+    background-image: -o-linear-gradient(bottom, #0B1E44 0%, #21CEA0 100%, #263960 100%, #21CEA0 100%, #0B1E44 100%);
+    background-image: -moz-linear-gradient(bottom, #0B1E44 0%, #21CEA0 100%, #263960 100%, #21CEA0 100%, #0B1E44 100%);
+    background-image: -webkit-linear-gradient(bottom, #0B1E44 0%, #21CEA0 100%, #263960 100%, #21CEA0 100%, #0B1E44 100%);
+    background-image: -ms-linear-gradient(bottom, #0B1E44 0%, #21CEA0 100%, #263960 100%, #21CEA0 100%, #0B1E44 100%);
+    background-image: linear-gradient(to bottom, #0B1E44 0%, #21CEA0 100%, #263960 100%, #21CEA0 100%, #0B1E44 100%);
+}
+
+a.list-group-item:hover{
+    background: rgb(255,225,196) !important;
+    border-bottom: 2px solid rgba(33, 206, 160, 0.6);
+}
+
+a.active:hover, a.active:focus{
+    background-image: -o-linear-gradient(bottom, #21CEA0 0%, #263960 55%, #21CEA0 100%) !important;
+    background-image: -moz-linear-gradient(bottom, #21CEA0 0%, #263960 55%, #21CEA0 100%) !important;
+    background-image: -webkit-linear-gradient(bottom, #21CEA0 0%, #263960 55%, #21CEA0 100%) !important;
+    background-image: -ms-linear-gradient(bottom, #21CEA0 0%, #263960 55% #21CEA0 100%) !important;
+    background-image: linear-gradient(to bottom, #21CEA0 0%, #263960 55%, #21CEA0 100%) !important;
+    /*background: rgba(33, 206, 160, 0.2) !important;*/
+    border: 1px solid rgb(120, 120, 120) !important;
+}
+
+footer{
+    margin-top: 30px;
+    font-size: 2.5rem;
+}
+
+@media only screen and (max-width: 1340px) {
+    header{
+        clear: both;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 991px) {
+    header{
+        text-align: center;
+    }
+
+    div.jumbotron{
+        text-align: center;
+    }
+
+    aside{
+        margin-top: 40px;
+    }
+
+    footer{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 765px){
+    a.navbar-brand{
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+
+    ul.navbar-nav li{
+        display: block;
+        margin: 35px 0 !important;
+        text-align: center;
+        border-bottom: 1px solid rgb(210, 210, 210);
+    }
+}

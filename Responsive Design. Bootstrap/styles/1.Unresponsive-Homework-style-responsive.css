@@ -1,0 +1,106 @@
+@media only screen and (max-width: 1105px) {
+    header h1 a span{
+        position: absolute;
+        top: 20px;
+        float: right;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 960px){
+
+    header h1 a span{
+        font-size: 230%;
+    }
+
+    body{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 780px){
+    body {
+        clear: both;
+        width: 100%;
+    }
+
+    header h1 a span{
+        font-size: 180%;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    aside.news {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 1%;
+    }
+
+    aside.news ul li {
+        text-align: center;
+        display: inline-block;
+        width: 20%;
+        margin-right: 5%;
+    }
+
+    aside.news ul li:last-of-type{
+        margin-right: 0;
+    }
+
+}
+
+@media only screen and (max-width: 640px){
+    body {
+        clear: both;
+        width: 100%;
+    }
+
+    #wrapper > header h1{
+        text-align: center;
+        height: 200px;
+    }
+
+    header h1 a img{
+        max-width: 80%;
+    }
+
+    header h1 a span{
+        margin-top: 55px;
+        display: block;
+        font-size: 180%;
+        width: 100%;
+    }
+    header nav ul li{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    section {
+        width: 100%;
+    }
+
+    aside.news {
+        width: 100%;
+        margin-top: 1%;
+    }
+
+    aside.news ul li{
+        display: block;
+        width: 100%;
+        margin: 0 auto 1.5% auto;
+    }
+
+    aside.news ul li:last-of-type{
+        display: block;
+        margin: 0 auto;
+    }
+
+}
+
+
+
+
+
